@@ -150,6 +150,7 @@ footer h3 {
     #buttons button {
       width: auto;
       height: auto;
+      font-weight: 700;
       margin: 5%;
       font-size: 80%;
     }
