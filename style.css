@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    font-family: 'Amatic SC', cursive;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8eae8;
+    border: 10px #e88584 dashed;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    margin-top: 5%;
+    font-size: 550%;
+    color: #ce554e;
+    font-weight: 700;
+}
+
+/* The half and half introduction */
+#description .row {
+    display: flex;
+}
+#description .column {
+    flex: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+#description #front {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    opacity: 90%;
+    border-radius: 10px;
+    border: 5px #96a5ce dashed;
+}
+#description p {
+    align-items: center;
+    font-size: 160%;
+    color: #e88584;
+}
+
+/* Filtering buttons */
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+#buttons button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 5%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 175%;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #96a5ce40;
+    color: #5e6d88;
+    border: 5px #96a5ce dashed;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+#buttons button:hover {
+    background-color: #e8868450;
+}
+
+/* Picture collection */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    opacity: 75%;
+    border-radius: 10px;
+    border: 3px #e88584 dashed;
+}
+main img:hover{
+    opacity: 90%;
+    border: 5px #96a5ce dashed;
+}
+.rectdiv {
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+/* Ending note */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h2 {
+    margin-top: 10%;
+    font-size: 1000%;
+    color: #e88584;
+}
+
+footer h3 {
+    margin-bottom: 10%;
+    font-size: 500%;
+    color: #96a5ce;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 650%;
+      text-align: center;
+    }
+    #description .row {
+      flex-direction: column;
+    }
+    #description .column {
+      flex: 100%;
+      margin: 5%;
+    }
+    #description #front {
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+    #buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #buttons button {
+      width: auto;
+      height: auto;
+      margin: 5%;
+      font-size: 80%;
+    }
+    .rectdiv {
+      width: calc(45% - 20px);
+      margin: 10px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer h2 {
+        margin-top: 30%;
+        font-size: 600%;
+        color: #e88584;
+    }
+    
+    footer h3 {
+        margin-bottom: 30%;
+        font-size: 400%;
+        align-items: center;
+        text-align: center;
+    }
+}
