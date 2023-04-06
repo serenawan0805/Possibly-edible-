@@ -15,7 +15,7 @@
   {
     "Id": 2,
     "Name": " Crab Roe Tofu",
-    "Picture": "2.0.jpg",
+    "Picture": "2.0.JPG",
     "Dish": "2.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -28,7 +28,7 @@
   {
     "Id": 3,
     "Name": "Mushroom and beef soup",
-    "Picture": "3.0.jpg",
+    "Picture": "3.0.JPG",
     "Dish": "3.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -41,7 +41,7 @@
   {
     "Id": 4,
     "Name": "Egg drop mushroom soup",
-    "Picture": "4.0.jpg",
+    "Picture": "4.0.JPG",
     "Dish": "4.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -54,7 +54,7 @@
   {
     "Id": 5,
     "Name": "Mushroom with sliced rice cake noodle",
-    "Picture": "5.0.jpg",
+    "Picture": "5.0.JPG",
     "Dish": "5.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -67,7 +67,7 @@
   {
     "Id": 6,
     "Name": "Simmered eggplant with mushroom and ground beef",
-    "Picture": "6.0.jpg",
+    "Picture": "6.0.JPG",
     "Dish": "6.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -80,7 +80,7 @@
   {
     "Id": 7,
     "Name": "Broccoli with Shrimp",
-    "Picture": "7.0.jpg",
+    "Picture": "7.0.JPG",
     "Dish": "7.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -93,7 +93,7 @@
   {
     "Id": 8,
     "Name": "Choy sum with eggs",
-    "Picture": "8.0.jpg",
+    "Picture": "8.0.JPG",
     "Dish": "8.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -106,7 +106,7 @@
   {
     "Id": 9,
     "Name": "Toast with sliced beef",
-    "Picture": "9.0.jpg",
+    "Picture": "9.0.JPG",
     "Dish": "9.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -119,7 +119,7 @@
   {
     "Id": 10,
     "Name": "Stuffed sandwich",
-    "Picture": "10.0.jpg",
+    "Picture": "10.0.JPG",
     "Dish": "10.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -132,7 +132,7 @@
   {
     "Id": 11,
     "Name": "Tofu Soup",
-    "Picture": "11.0.jpg",
+    "Picture": "11.0.JPG",
     "Dish": "11.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -145,7 +145,7 @@
   {
     "Id": 12,
     "Name": "Shredded meat and veggies",
-    "Picture": "12.0.jpg",
+    "Picture": "12.0.JPG",
     "Dish": "12.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -158,7 +158,7 @@
   {
     "Id": 13,
     "Name": "Tomato konjac soup",
-    "Picture": "13.0.jpg",
+    "Picture": "13.0.JPG",
     "Dish": "13.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -171,7 +171,7 @@
   {
     "Id": 14,
     "Name": "Fried rice",
-    "Picture": "14.0.jpg",
+    "Picture": "14.0.JPG",
     "Dish": "14.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -184,7 +184,7 @@
   {
     "Id": 15,
     "Name": "Chicken with shiitake mushroom",
-    "Picture": "15.0.jpg",
+    "Picture": "15.0.JPG",
     "Dish": "15.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -197,7 +197,7 @@
   {
     "Id": 16,
     "Name": "Mung bean jelly topped with ground beef",
-    "Picture": "16.0.jpg",
+    "Picture": "16.0.JPG",
     "Dish": "16.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -210,7 +210,7 @@
   {
     "Id": 17,
     "Name": "Seafood dumpling soup",
-    "Picture": "17.0.jpg",
+    "Picture": "17.0.JPG",
     "Dish": "17.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -223,7 +223,7 @@
   {
     "Id": 18,
     "Name": "Tomato with eggs soup",
-    "Picture": "18.0.jpg",
+    "Picture": "18.0.JPG",
     "Dish": "18.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -236,7 +236,7 @@
   {
     "Id": 19,
     "Name": "Cucumber, egg, and mushroom",
-    "Picture": "19.0.jpg",
+    "Picture": "19.0.JPG",
     "Dish": "19.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -249,7 +249,7 @@
   {
     "Id": 20,
     "Name": "Curry with egg",
-    "Picture": "20.0.jpg",
+    "Picture": "20.0.JPG",
     "Dish": "20.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -262,7 +262,7 @@
   {
     "Id": 21,
     "Name": "Tomato stew with meat and potato",
-    "Picture": "21.0.jpg",
+    "Picture": "21.0.JPG",
     "Dish": "21.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -275,7 +275,7 @@
   {
     "Id": 22,
     "Name": "Cucumber with meat",
-    "Picture": "22.0.jpg",
+    "Picture": "22.0.JPG",
     "Dish": "22.1.jpg",
     "All": 1,
     "Grain": 0,
@@ -288,7 +288,7 @@
   {
     "Id": 23,
     "Name": "Tomato sauced noodle",
-    "Picture": "23.0.jpg",
+    "Picture": "23.0.JPG",
     "Dish": "23.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -301,7 +301,7 @@
   {
     "Id": 24,
     "Name": "Meaty ramen",
-    "Picture": "24.0.jpg",
+    "Picture": "24.0.JPG",
     "Dish": "24.1.jpg",
     "All": 1,
     "Grain": 1,
@@ -314,7 +314,7 @@
   {
     "Id": 25,
     "Name": "Choy sum with tofu soup",
-    "Picture": "25.0.jpg",
+    "Picture": "25.0.JPG",
     "Dish": "25.1.jpg",
     "All": 1,
     "Grain": 1,
