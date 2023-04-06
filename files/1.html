@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>Bitter melon with eggs</title>
+
+<style>
+/* Styling */
+* {
+    font-family: 'Amatic SC', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8eae8;
+    border: 10px #e88584 dashed;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1 {
+    font-size: 700%;
+    margin: 10%;
+    color: #ce554e;
+}
+/* The half and half introduction */
+#description .row {
+    display: flex;
+}
+#description .column {
+    flex: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    opacity: 90%;
+    border-radius: 10px;
+    border: 5px #96a5ce dashed;
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%); */
+}
+h2 {
+    font-size: 300%;
+    color:#e88584;
+    /* color: #96a5ce; */
+}
+h3 {
+    font-size: 300%;
+    color:#e88584;
+}
+h4 {
+    font-size: 400%;
+    margin: 5%;
+    margin-bottom: 2%;
+    color:#e88584;
+}
+h5 {
+    font-size: 400%;
+    margin: 5%;
+    margin-bottom: 2%;
+    color:#e88584;
+}
+p {
+    font-size: 150%;
+    color: #96a5ce;
+    /* color:#e88584; */
+}
+li {
+    font-size: 150%;
+    color: #96a5ce;
+}
+#last {
+    margin-bottom: 10%;
+    text-align: center;
+}
+button {
+    font-size: 250%;
+    letter-spacing: 5px;
+    margin-bottom:4%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    background-color: #96a5ce40;
+    color: #5e6d88;
+    border: 5px #96a5ce dashed;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+button:hover {
+    background-color: #e8868450;
+}
+a {
+    text-decoration: none;
+    color: #5e6d88;
+}
+
+/* Responsive phone */
+@media (max-width: 768px) {
+        header h1 {
+          font-size: 300%;
+        }
+        #description .row {
+          flex-direction: column;
+        }
+        #description .column {
+          flex: 100%;
+          margin: 5%;
+        }
+        #description #front {
+          margin-top: 10%;
+        }
+        #buttons {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        #buttons button {
+          width: 45%;
+          height: 10%;
+          margin: 5%;
+          font-size: 125%;
+        }
+        .rectdiv {
+          width: calc(45% - 20px);
+          margin: 10px;
+        }
+      }
+</style>
+
+</head>
+<!-- Information -->
+<body>
+    <h1>Bitter melon with eggs</h1>
+    <!-- Column -->
+    <div id="description">
+        <div class="row">
+            <div class="column">
+                <img src="img/1.1.JPG" alt="">
+            </div>
+            
+            <div class="column">
+                <h2>Estimated cooking time</h2>
+                    <p>30 Minute</p>
+                <h3>Ingredients</h3>
+                    <ul>
+                        <li>Bitter melon</li>
+                        <li>Eggs</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <h4>Procedure</h4>
+        <ol>
+            <li>Wash and clean the bitter melon(s). Carve out the seeds and the soft light green tissue in the middle. Cut the bitter melon(s) in half (hotdog style) and then slice the two halves into thin pieces. Soak the slices in salt.</li>
+            <li>Mix the egg(s). Heat the pan and add oil. Once the oil is heated, pour in the egg(s) and stir fry them until most of the egg is no longer in the liquid state.</li>
+            <li>Squeeze out the water after soaking the bitter melon in salt water. Rinse them in water.</li>
+            <li>Heat the pan with oil and throw in some sliced garlic. Put the bitter melon in the pan and stir until semi-soft. Add in the eggs and stir until ready to serve.</li>
+            <li>Lastly, add in additional sauces to your taste. I add in chili pepper flakes for a more spicy flavor!</p></li>
+        </ol>
+    <h5>Health benefit</h5>
+        <p id="last">Bitter melon helps reduce blood sugar levels! Bitter melons are also effective against cancer and were found to be effective for the treatment of ulcer, malaria, pain and inflammation, psoriasis, dyslipidemia, and hypertension.</p>
+
+    <button> <a href="/2. Core 2 - Interation Studio/Project 2/Elastic Collection/Final/index.html">Look for new recipes~</a> </button>
+</body>
+</html>

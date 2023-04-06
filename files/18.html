@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tomato with eggs soup</title>
+
+<style>
+/* Styling */
+* {
+    font-family: 'Amatic SC', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8eae8;
+    border: 10px #e88584 dashed;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1 {
+    font-size: 700%;
+    margin: 10%;
+    color: #ce554e;
+}
+/* The half and half introduction */
+#description .row {
+    display: flex;
+}
+#description .column {
+    flex: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    opacity: 90%;
+    border-radius: 10px;
+    border: 5px #96a5ce dashed;
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%); */
+}
+h2 {
+    font-size: 300%;
+    color:#e88584;
+    /* color: #96a5ce; */
+}
+h3 {
+    font-size: 300%;
+
+    color:#e88584;
+}
+h4 {
+    font-size: 400%;
+    margin: 5%;
+    margin-bottom: 2%;
+    color:#e88584;
+}
+h5 {
+    font-size: 400%;
+    margin: 5%;
+    margin-bottom: 2%;
+    color:#e88584;
+}
+p {
+    font-size: 150%;
+    color: #96a5ce;
+    /* color:#e88584; */
+}
+li {
+    font-size: 150%;
+    color: #96a5ce;
+}
+#last {
+    margin-bottom: 10%;
+    text-align: center;
+}
+button {
+    font-size: 250%;
+    letter-spacing: 5px;
+    margin-bottom:4%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    background-color: #96a5ce40;
+    color: #5e6d88;
+    border: 5px #96a5ce dashed;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+button:hover {
+    background-color: #e8868450;
+}
+a {
+    text-decoration: none;
+    color:#5e6d88;
+}
+
+/* Responsive phone */
+@media (max-width: 768px) {
+        header h1 {
+          font-size: 300%;
+        }
+        #description .row {
+          flex-direction: column;
+        }
+        #description .column {
+          flex: 100%;
+          margin: 5%;
+        }
+        #description #front {
+          margin-top: 10%;
+        }
+        #buttons {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        #buttons button {
+          width: 45%;
+          height: 10%;
+          margin: 5%;
+          font-size: 125%;
+        }
+        .rectdiv {
+          width: calc(45% - 20px);
+          margin: 10px;
+        }
+      }
+</style>
+
+</head>
+<!-- Information -->
+<body>
+    <h1>Tomato with eggs soup</h1>
+    <!-- Column -->
+    <div id="description">
+        <div class="row">
+            <div class="column">
+                <img src="img/18.1.JPG" alt="">
+            </div>
+            
+            <div class="column">
+                <h2>Estimated cooking time</h2>
+                    <p>25 Minute</p>
+                <h3>Ingredients</h3>
+                    <ul>
+                        <li>  Tomato  </li>
+                        <li>  Egg  </li>
+                        <li>  Cabbage  </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <h4>Procedure</h4>
+        <ol>
+            <li>  Beat egg(s) in a bow and stir fry it in a pan with heated oil.  </li>
+            <li>  Peel the skin off the tomato and slice it into small pieces.  </li>
+            <li>  Heat oil in a pan and add in minced garlic. Put the sliced tomatoes in and stir it until it completely turns into liquid. Add in the egg and cabbage. Stir. In a bowl, mix ketchup, soy sauce, oyster sauce, salt, black pepper, and flavoring of your liking. Add it into the pan. Mix and simmer until ready to serve.  </li>
+            <li>  Lastly, top it off with sliced green onions!  </li>
+        </ol>
+    <h5>Health benefit</h5>
+        <p id="last">  Cabbage seems to raise levels of beta-carotene, lutein, and other heart-protective antioxidants. </p>
+
+    <button> <a href="/2. Core 2 - Interation Studio/Project 2/Elastic Collection/Final/index.html">Look for new recipes~</a> </button>
+</body>
+</html>
