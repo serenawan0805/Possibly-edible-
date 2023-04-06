@@ -154,6 +154,9 @@ footer h3 {
       margin: 5%;
       font-size: 80%;
     }
+    main img {
+        opacity: 90%;
+    }
     .rectdiv {
       width: calc(45% - 20px);
       margin: 10px;
